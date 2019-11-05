@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33515" started-at="2019-11-04T09:05:20Z" finished-at="2019-11-04T09:05:53Z">
+    <groups>
+    </groups>
+    <test name="AppTest" duration-ms="51" started-at="2019-11-04T09:05:20Z" finished-at="2019-11-04T09:05:20Z">
+    </test> <!-- AppTest -->
+    <test name="TestValidateNavigationBar" duration-ms="18948" started-at="2019-11-04T09:05:20Z" finished-at="2019-11-04T09:05:39Z">
+      <class name="sgt.tchateau.seleniumautomation11.ValidateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:sgt.tchateau.seleniumautomation11.ValidateNavigationBar@2a742aa2]" name="initialize" is-config="true" duration-ms="16363" started-at="2019-11-04T09:05:20Z" finished-at="2019-11-04T09:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="baseNavigation()[pri:0, instance:sgt.tchateau.seleniumautomation11.ValidateNavigationBar@2a742aa2]" name="baseNavigation" duration-ms="267" started-at="2019-11-04T09:05:36Z" finished-at="2019-11-04T09:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:sgt.tchateau.seleniumautomation11.ValidateNavigationBar@2a742aa2]" name="teardown" is-config="true" duration-ms="2266" started-at="2019-11-04T09:05:37Z" finished-at="2019-11-04T09:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- sgt.tchateau.seleniumautomation11.ValidateNavigationBar -->
+    </test> <!-- TestValidateNavigationBar -->
+    <test name="HomePage" duration-ms="33499" started-at="2019-11-04T09:05:20Z" finished-at="2019-11-04T09:05:53Z">
+      <class name="sgt.tchateau.seleniumautomation11.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:sgt.tchateau.seleniumautomation11.HomePage@2d0399f4]" name="initialize" is-config="true" duration-ms="27063" started-at="2019-11-04T09:05:20Z" finished-at="2019-11-04T09:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:sgt.tchateau.seleniumautomation11.HomePage@2d0399f4]" name="basePageNavigation" duration-ms="3593" started-at="2019-11-04T09:05:47Z" data-provider="getData" finished-at="2019-11-04T09:05:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[itsasecret]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:sgt.tchateau.seleniumautomation11.HomePage@2d0399f4]" name="basePageNavigation" duration-ms="1089" started-at="2019-11-04T09:05:51Z" data-provider="getData" finished-at="2019-11-04T09:05:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[itsasecret]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:sgt.tchateau.seleniumautomation11.HomePage@2d0399f4]" name="teardown" is-config="true" duration-ms="1713" started-at="2019-11-04T09:05:52Z" finished-at="2019-11-04T09:05:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- sgt.tchateau.seleniumautomation11.HomePage -->
+    </test> <!-- HomePage -->
+  </suite> <!-- Suite -->
+</testng-results>

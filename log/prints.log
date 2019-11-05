@@ -1,0 +1,4 @@
+10:06:27.892 [main] INFO  sgt.tchateau.seleniumautomation11.ressources.Base - driver is initialized
+10:06:28.713 [main] INFO  sgt.tchateau.seleniumautomation11.ressources.Base - navigated to home page
+10:06:43.015 [main] INFO  sgt.tchateau.seleniumautomation11.ressources.Base - successfully validated
+10:06:44.245 [main] INFO  sgt.tchateau.seleniumautomation11.ressources.Base - driver is quited

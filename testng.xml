@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Suite"> -->
+<!--   <test thread-count="5" name="Test"> -->
+<!--     <classes> -->
+<!--       <class name="sgt.tchateau.seleniumautomation11.ValidateNavigationBar"/> -->
+<!--       <class name="sgt.tchateau.seleniumautomation11.ValidateTitle"/> -->
+<!--       <class name="sgt.tchateau.seleniumautomation11.AppTest"/> -->
+<!--       <class name="sgt.tchateau.seleniumautomation11.HomePage"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+<!-- </suite>  -->
+
+
+<suite name="Suite" parallel="tests">
+	<listeners>
+        <listener class-name="sgt.tchateau.seleniumautomation11.Listener"></listener>
+    </listeners>
+   <test name="TestValidateNavigationBar">
+    <classes>
+      <class name="sgt.tchateau.seleniumautomation11.ValidateNavigationBar"/>
+    </classes>
+   </test>
+   <test name="ValidateTitle">
+    <classes>
+      <class name="sgt.tchateau.seleniumautomation11.ValidateTitle"/>
+    </classes>
+   </test>
+   <test name="AppTest">
+    <classes>
+      <class name="sgt.tchateau.seleniumautomation11.AppTest"/>
+    </classes>
+   </test>
+   <test name="HomePage">
+    <classes>
+      <class name="sgt.tchateau.seleniumautomation11.HomePage"/>
+    </classes>
+   </test>
+</suite>

@@ -1,0 +1,5 @@
+16:58:11.320 [TestNG-tests-2] INFO  sgt.tchateau.seleniumautomation11.ressources.Base - driver is quited
+16:59:19.631 [TestNG-tests-2] INFO  sgt.tchateau.seleniumautomation11.ressources.Base - driver is initialized
+16:59:20.954 [TestNG-tests-2] INFO  sgt.tchateau.seleniumautomation11.ressources.Base - navigated to home page
+16:59:32.902 [TestNG-tests-2] INFO  sgt.tchateau.seleniumautomation11.ressources.Base - driver is quited
+17:02:52.024 [TestNG-tests-2] INFO  sgt.tchateau.seleniumautomation11.ressources.Base - driver is initialized

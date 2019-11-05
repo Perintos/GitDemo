@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="sgt.tchateau.seleniumautomation11.Listener"/>
+  </listeners>
+  <test thread-count="5" name="ValidateTitle(failed)">
+    <classes>
+      <class name="sgt.tchateau.seleniumautomation11.ValidateTitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="baseNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- sgt.tchateau.seleniumautomation11.ValidateTitle -->
+    </classes>
+  </test> <!-- ValidateTitle(failed) -->
+</suite> <!-- Failed suite [Suite] -->
